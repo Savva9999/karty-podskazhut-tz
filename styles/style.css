@@ -145,12 +145,11 @@ figure {
 }
 
 .content__card-title {
-  font-size: 140px;
+  font-size: 60px;
 }
 
 .content__card-subtitle {
-  font-size: 40px;
-  max-width: 80%;
+  font-size: 18px;
 }
 
 .colored-text {
@@ -273,4 +272,14 @@ button:disabled {
 
 .theme_dark .content__list-item::before {
   background-image: url("../images/marker-dark.svg");
+}
+
+.card-line {
+  display: inline;
+}
+
+@media (max-width: 520px) {
+  .card-line {
+    display: block;
+  }
 }
